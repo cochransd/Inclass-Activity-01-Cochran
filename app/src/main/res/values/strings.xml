@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Inclass-Activity-01-Cochran</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
