@@ -12,12 +12,6 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
     </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
@@ -28,9 +22,32 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
     <DatePicker
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        android:id="@+id/datePicker3" />
+        android:layout_height="184dp"
+        android:id="@+id/datePicker4" />
+
+    <GridView
+        android:layout_width="0dp"
+        android:layout_height="381dp" />
+
+    <RatingBar
+        android:layout_width="290dp"
+        android:layout_height="74dp"
+        android:id="@+id/ratingBar" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="344dp"
+        android:id="@+id/progressBar5"
+        android:indeterminate="false"
+        android:progress="75" />
 
 </android.support.design.widget.CoordinatorLayout>
