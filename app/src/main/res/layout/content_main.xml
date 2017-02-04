@@ -13,4 +13,27 @@
     tools:context="steve_cochran.inclass_activity_01_cochran.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="129dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="291dp"
+        android:id="@+id/progressBar7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="183dp"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="218dp"
+        android:id="@+id/progressBar8" />
 </RelativeLayout>
